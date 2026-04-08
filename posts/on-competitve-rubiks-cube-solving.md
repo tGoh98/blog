@@ -11,16 +11,16 @@ So I dug an old Rubik's cube out of the closet and spent the next week-ish scour
 I spent hours upon hours studying how to get faster. I got to the point where I could consistently solve the cube in under 15 seconds. But that wasn't enough. I wanted to learn the most impressive way of solving it, blindfolded. That marked the beginning of my obsession for the next few years. I started attending competitions, studying various solving methods, and diving deep into the cubing world. Below are a few highlights of my favorite memories from that time:
 
 [3rd place at US Nationals 2018](https://www.worldcubeassociation.org/persons/2016GOHT01?tab=championship-podiums) in the 5x5 blindfolded event
-![alt text](image.png)
+![alt text](/blog/image.png)
 
 Started a [YouTube channel](https://www.youtube.com/@timothygoh-4bld649) teaching advanced blindfolded solving techniques -- 3.2k subs and still getting comments to this day
-![alt text](image-1.png)
+![alt text](/blog/image-1.png)
 
 Got the "unofficial world record" for [solving a Rubik's Cube blindfolded with my feet](https://www.youtube.com/watch?v=Mk0U_YyfMhQ) (and almost got taken down from YouTube for showing my feet)
-![alt text](image-2.png)
+![alt text](/blog/image-2.png)
 
 Finalist in the Salesforce Got Talent show with an [underwater blindfolded solving + cube mosaic show](https://www.youtube.com/watch?v=dpgDliOu9sA), won $10k and donated it to the World Cube Association
-![alt text](image-3.png)
+![alt text](/blog/image-3.png)
 
 And a few honorable mentions:
 * Wrote a bunch of software to optimize solutions, train solves, and organize competitions. This showed me the power of software and is a reason I am a software developer now (peep the [blog post](/blog/on-writing-a-rubiks-cube-solver-2x2) on writing a cube solver)
