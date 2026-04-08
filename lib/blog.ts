@@ -109,7 +109,7 @@ export function getAllTags(): string[] {
   });
 
   // Custom tag ordering
-  const tagOrder = ['starred', 'project', 'figma', 'yap', 'misc1'];
+  const tagOrder = ['starred', 'project', 'figma', 'post', 'misc1'];
 
   return Array.from(tagsSet).sort((a, b) => {
     const indexA = tagOrder.indexOf(a);
