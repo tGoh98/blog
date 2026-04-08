@@ -1,6 +1,7 @@
 'use client';
 
 import { useRouter, useSearchParams } from 'next/navigation';
+import { getTagColors } from '@/lib/tags';
 
 interface TagFilterProps {
   tags: string[];
@@ -38,19 +39,22 @@ export default function TagFilter({ tags }: TagFilterProps) {
         Filter by tag:
       </h3>
       <div className="flex flex-wrap gap-2">
-        {tags.map((tag) => (
-          <button
-            key={tag}
-            onClick={() => handleTagClick(tag)}
-            className={`px-3 py-1.5 rounded-full text-sm transition-all ${
-              currentTag === tag
-                ? 'bg-zinc-900 dark:bg-zinc-50 text-zinc-50 dark:text-zinc-900'
-                : 'bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 hover:bg-zinc-200 dark:hover:bg-zinc-700'
-            }`}
-          >
-            {tag}
-          </button>
-        ))}
+        {tags.map((tag) => {
+          const colors = getTagColors(tag);
+          return (
+            <button
+              key={tag}
+              onClick={() => handleTagClick(tag)}
+              className={`px-3 py-1.5 rounded-full text-sm transition-all ${
+                currentTag === tag
+                  ? 'ring-2 ring-zinc-900 dark:ring-zinc-50'
+                  : 'hover:opacity-80'
+              } ${colors.bg} ${colors.text}`}
+            >
+              {tag}
+            </button>
+          );
+        })}
         {currentTag && (
           <button
             onClick={() => handleTagClick(currentTag)}

@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { format } from 'date-fns';
 import { getPostBySlug, getPostMetadata } from '@/lib/blog';
+import { getTagColors } from '@/lib/tags';
 import MarkdownRenderer from '@/components/MarkdownRenderer';
 import type { Metadata } from 'next';
 
@@ -81,15 +82,18 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               <>
                 <span>•</span>
                 <div className="flex flex-wrap gap-2">
-                  {post.tags.map((tag) => (
-                    <Link
-                      key={tag}
-                      href={`/blog?tag=${tag}`}
-                      className="text-sm px-2 py-1 bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 rounded-full hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors"
-                    >
-                      {tag}
-                    </Link>
-                  ))}
+                  {post.tags.map((tag) => {
+                    const colors = getTagColors(tag);
+                    return (
+                      <Link
+                        key={tag}
+                        href={`/blog?tag=${tag}`}
+                        className={`text-sm px-2 py-1 rounded-full hover:opacity-80 transition-colors ${colors.bg} ${colors.text}`}
+                      >
+                        {tag}
+                      </Link>
+                    );
+                  })}
                 </div>
               </>
             )}

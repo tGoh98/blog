@@ -5,13 +5,15 @@ description: "Clickety clackety."
 tags: ["post"]
 ---
 
-When I was 12 years old, a kid on the neighborhood swim team solved a Rubik's cube. This activated my competitive spirit, if he could do it, why couldn't I?
-So I dug an old Rubik's cube out of the closet and spent the next week-ish scouring the internet for various tutorials until I finally found one that I could follow. Solving it for the first time was cool, but that wasn't enough. After all, I should have the steps memorized and be able to execute them in under a minute for it to be practical to show off. 
+When I was 12 years old, a kid on the neighborhood swim team solved a Rubik's cube. This activated my competitive spirit. If he could do it, why couldn't I? I dug an old Rubik's cube out of the closet and spent the next week-ish scouring the internet for various tutorials until I finally found one that I could follow. Solving it for the first time was cool, but that wasn't enough. After all, I had to have the steps memorized and be able to execute them in under a minute for it to be practical enough to show off. 
 
-I spent hours upon hours studying how to get faster. I got to the point where I could consistently solve the cube in under 15 seconds. But that wasn't enough. I wanted to learn the most impressive way of solving it, blindfolded. That marked the beginning of my obsession for the next few years. I started attending competitions, studying various solving methods, and diving deep into the cubing world. Below are a few highlights of my favorite memories from that time:
+I spent hours upon hours studying how to get faster. I got to the point where I could consistently solve the cube in under 15 seconds. But that wasn't enough. I wanted to learn the most impressive (to me) way of solving it, blindfolded. That marked the beginning of my obsession for the next few years. I started attending competitions, studying various solving methods, and diving deep into the cubing world. Below are a few highlights of my favorite memories from that time:
 
-[3rd place at US Nationals 2018](https://www.worldcubeassociation.org/persons/2016GOHT01?tab=championship-podiums) in the 5x5 blindfolded event
-![alt text](/blog/image.png)
+[3rd place at US Nationals 2018](https://www.worldcubeassociation.org/persons/2016GOHT01?tab=championship-podiums) in the [5x5 blindfolded event](https://www.youtube.com/watch?v=otPVLLjECCA)
+![alt text](/blog/image-5.png)
+
+[Solving 26 cubes blindfolded](https://www.youtube.com/watch?v=oW2R0_tAP-Q) at once in under an hour
+![alt text](/blog/image-4.png)
 
 Started a [YouTube channel](https://www.youtube.com/@timothygoh-4bld649) teaching advanced blindfolded solving techniques -- 3.2k subs and still getting comments to this day
 ![alt text](/blog/image-1.png)

@@ -3,6 +3,7 @@ import { format, parseISO } from 'date-fns';
 import { BlogPostMetadata } from '@/lib/types';
 import { HiExternalLink } from 'react-icons/hi';
 import { HiStar } from 'react-icons/hi2';
+import { getTagColors } from '@/lib/tags';
 
 interface BlogCardProps {
   post: BlogPostMetadata;
@@ -40,14 +41,17 @@ export default function BlogCard({ post }: BlogCardProps) {
         </div>
         {post.tags.length > 0 && (
           <div className="flex flex-wrap gap-2 mt-auto">
-            {post.tags.map((tag) => (
-              <span
-                key={tag}
-                className="text-xs px-2 py-1 bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 rounded-full"
-              >
-                {tag}
-              </span>
-            ))}
+            {post.tags.map((tag) => {
+              const colors = getTagColors(tag);
+              return (
+                <span
+                  key={tag}
+                  className={`text-xs px-2 py-1 rounded-full ${colors.bg} ${colors.text}`}
+                >
+                  {tag}
+                </span>
+              );
+            })}
           </div>
         )}
       </div>
