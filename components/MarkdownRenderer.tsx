@@ -81,6 +81,14 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
             {children}
           </blockquote>
         ),
+        img: ({ src, alt }) => (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={typeof src === 'string' ? src : undefined}
+            alt={alt ?? ''}
+            className="block w-[calc(100%-20px)] mx-auto h-auto my-6"
+          />
+        ),
         }}
       >
         {content}

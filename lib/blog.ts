@@ -29,8 +29,10 @@ export function getAllPosts(): BlogPost[] {
         content,
         externalUrl: data.externalUrl,
         score: data.score,
+        draft: data.draft === true,
       };
-    });
+    })
+    .filter((post) => !post.draft);
 
   return posts;
 }
@@ -40,6 +42,10 @@ export function getPostBySlug(slug: string): BlogPost | null {
     const fullPath = path.join(postsDirectory, `${slug}.md`);
     const fileContents = fs.readFileSync(fullPath, 'utf8');
     const { data, content } = matter(fileContents);
+
+    if (data.draft === true) {
+      return null;
+    }
 
     return {
       slug,
