@@ -7,7 +7,7 @@ tags: ["post"]
 
 When I was 12 years old, a kid on the neighborhood swim team solved a Rubik's cube. This activated my competitive spirit. If he could do it, why couldn't I? I dug an old Rubik's cube out of the closet and spent the next week-ish scouring the internet for various tutorials until I finally found one that I could follow. Solving it for the first time was cool, but that wasn't enough. After all, I had to have the steps memorized and be able to execute them in under a minute for it to be practical enough to show off. 
 
-I spent hours upon hours studying how to get faster. I got to the point where I could consistently solve the cube in under 15 seconds. But that wasn't enough. I wanted to learn the most impressive (to me) way of solving it: blindfolded. That marked the beginning of my obsession for the next few years. I started attending competitions, studying various solving methods, and diving deep into the cubing world. 
+I spent hours upon hours studying how to get faster. I got to the point where I could consistently solve the cube in under 15 seconds. But that wasn't enough. I wanted to learn the most impressive (to me) way of solving it: blindfolded. That marked the beginning of my obsession for the next few years. I started attending competitions, studying various solving methods, pursuing theorycrafting and optimizations, and diving deep into the cubing world. 
 
 Below are a few highlights of my favorite memories from that time:
 

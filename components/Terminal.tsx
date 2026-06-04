@@ -16,7 +16,7 @@ const commands: Command[] = [
   },
   {
     input: '$ ps aux',
-    output: ['Working on database @ Figma', 'Playing on the side'],
+    output: ['Working on database @ Figma', 'Hacking on the side'],
     delay: 800,
   },
   {
